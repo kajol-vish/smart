@@ -1,0 +1,69 @@
+#main-section {
+  background: url("../Assets/2.gif") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  .search-input {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    align-items: center;
+    height: 10%;
+    .MuiTextField-root {
+      background-color: #ece2e9b5;
+    }
+  }
+  .main-card-container {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    align-items: center;
+    justify-content: center;
+    .main-card-wrapper {
+      background: url("../Assets/rain.jpg");
+      background-size: cover;
+      color: white;
+      display: flex;
+
+      .main-card-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        &-left {
+          display: flex;
+          flex-direction: column;
+        }
+        &-middle {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          width: 30%;
+        }
+        &-right {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+  .forecast-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    .forecast-wrapper {
+      display: flex;
+      justify-content: space-evenly;
+      width: 70%;
+      .forecast-card-wrapper {
+        background: url("../Assets/bg1.jpg");
+        background-size: cover;
+        color: whitesmoke;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
